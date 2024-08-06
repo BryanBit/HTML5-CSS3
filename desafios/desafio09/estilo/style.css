@@ -1,0 +1,15 @@
+.imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Cria duas colunas com largura igual */
+    grid-gap: 20px; /* Espaço entre as imagens */
+    margin: 0 auto; /* Centraliza o grid na página */
+    width: 80%; /* Ajuste a largura conforme necessário */
+    max-width: 600px; /* Define uma largura máxima para o grid */
+}
+  .imgs a {
+    display: block; /* Garante que os links ocupem todo o espaço da célula da grade */
+  }
+  .imgs img {
+    width: 100%; /* As imagens ocupam todo o espaço disponível */
+    height: auto; /* Mantém a proporção das imagens */
+    }
