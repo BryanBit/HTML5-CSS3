@@ -1,3 +1,50 @@
+@import url('https://fonts.cdnfonts.com/css/valorant');
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(148, 152, 206);
+}
+main {
+  background-color: #f1faff;
+  margin: auto;
+}
+main p {
+  text-indent: 10px;
+  padding-left: 7px;
+  padding-right: 10px;
+}
+h2 {
+  text-indent: 30px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+header {
+  background-color: #f1faff;
+  margin: -8px auto;
+  margin-bottom: -16px;
+}
+main h3 {
+  text-indent: 25px;
+  font-size: 1em;
+  padding-bottom: 19px;
+}
+h1 {
+  font-family: 'VALORANT', sans-serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.622);
+  background-color: rgb(205, 162, 106);
+  text-align: center;
+  padding: 5px;
+  margin: -8px;
+  margin-bottom: -19.2px;
+  color: rgb(255, 255, 255);
+}
 img {
-  width: 400px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.fotocamp {
+  width: 327px;
+  height: auto;
+  overflow: hidden;
 }
