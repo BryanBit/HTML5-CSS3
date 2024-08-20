@@ -5,21 +5,17 @@ body {
 main {
     background-color: aliceblue;
     padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 h1 {
     text-align: center;
 }
 h2 {
     font-size: 1.2em; 
-    text-indent: 20px;
+
 }
 header {
     background-color: rgb(228, 228, 228);
     padding: 10px;
-    
     text-align: center;
     font-size: 1.1em;
     padding-bottom: 25px;
@@ -30,76 +26,23 @@ header h2 {
     font-size: 0.9em;
 }
 div {
-    height: 110px;
-    width: 600px;
-    padding: 1px;
-    font-size: 0.8em;
-    margin: 3px;
-    border-radius: 2px;
+    margin: auto;
 }
-div:hover {
-    transform: scale(1.01);
-    transition: 0.3s ease-out;
+.paises div {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 400px;
+}
+.paises div p {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+.paises div:hover {
+    transform: scale(1.04);
+    transition: 0.4s;
 }
 ul {
     list-style-type: none;
-}
-div p {
-    text-align: center;
-}
-.NA {
-    background-image: url('../imagens/band-usa.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.NA > p {
-    padding: 4px;
-    margin: auto;
-    margin-top: 10px;
-    justify-content: center;
-    color: white;
-    text-align: center;
-    width: 200px;
-    background-color: rgba(98, 98, 98, 0.905);
-    border-radius: 2px;
-    border: 1px solid black;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.349);
-}
-.NA > ul {
-    background-color: rgba(76, 76, 76, 0.959);
-    width: 400px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: auto;
-    margin-top: 3px;
-    color: white;
-    margin-bottom: 10px;
-    border-bottom-left-radius: 7px;
-    border-top-right-radius: 7px;
-    border: 1px solid rgb(0, 0, 0);
-    font-size: 1em;
-}
-.LATAM {
-    background-color: blue;
-}
-.ASIA {
-    background-color: brown;
-}
-.BRASIL {
-    background-color: green;
-}
-
-.SOUTH-KOREA {
-    background: linear-gradient(to right, white, red, blue);
-}
-.EMEA {
-    background-image: url('../imagens/band-emea.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.JAPAN {
-    background-color: white;
-    color: red;
 }
