@@ -144,12 +144,14 @@ aside p {
 }
 .botao {
     text-align: center;
+    border: 1px solid black;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin: auto;
+    padding: 2px;
+    border-radius: 4px;
 }
-.btn {
-    color: white;
-    padding: 40px;
-    border-radius: 50px;
-    border: 1px solid blue;
-    background-color: lightblue;
-    cursor: pointer;
+.botao a {
+    text-decoration: none;
 }
