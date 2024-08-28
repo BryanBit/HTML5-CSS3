@@ -4,7 +4,7 @@ body {
 }
 main {
     background-color: aliceblue;
-    padding: 10px;
+    padding-bottom: 30px;
 }
 h1 {
     text-align: center;
@@ -25,8 +25,10 @@ header {
 header h2 {
     font-size: 0.9em;
 }
-div {
-    margin: auto;
+#p1, #p2 {
+    text-indent: 40px;
+    padding-left: 20px;
+    padding-right: 30px;
 }
 .paises div {
     margin-bottom: 20px;
@@ -34,6 +36,7 @@ div {
     padding: 15px;
     width: 400px;
     height: 100px;
+    margin: auto;
 }
 .paises div p { 
     text-align: center;
@@ -74,12 +77,6 @@ div .BRASIL {
     background-position: center;
     height: 70px;
 }
-.btn {
-    background-color: rgb(186, 10, 10);
-    width: 100px;
-    height: 80px;
-    color:white;
-}
 div .LATAM {
     height: 70px;
     background-image: url('../imagens/band-latam.jpeg');
@@ -115,15 +112,44 @@ div .ASIA {
     background-position: center;
 }
 aside {
-    background-color: rgb(37, 72, 99);
-    text-align: center;
-    color: white;
-}
-aside p {
-    text-indent: 20px;
+    margin: 5px;
+    background-color: rgb(191, 232, 245);
     padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.533);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.404);
+    border-radius: 4px;
 }
 .video {
-    width: 715px;
-    background-color: white;
+    width: 100%;
+    background-color: rgb(173, 212, 225);
+    height: 270.5px;
+    margin: auto;
+    text-align: center;
+}
+aside p {
+    padding: 2px;
+    text-indent: 20px;
+}
+#loud {
+    color: #12F700;
+    padding: 1px;
+    border-radius: 6px;
+}
+#optc {
+    color: #98C139;
+    padding: 2px;
+    border-radius: 6px;
+}
+.botao {
+    text-align: center;
+}
+.btn {
+    color: white;
+    padding: 40px;
+    border-radius: 50px;
+    border: 1px solid blue;
+    background-color: lightblue;
+    cursor: pointer;
 }
