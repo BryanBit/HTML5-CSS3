@@ -37,6 +37,7 @@ header h2 {
     width: 400px;
     height: 100px;
     margin: auto;
+    margin-bottom: 10px;
 }
 .paises div p { 
     text-align: center;
@@ -127,10 +128,32 @@ aside {
     height: 270.5px;
     margin: auto;
     text-align: center;
+    border-radius: 6px;
 }
-aside p {
-    padding: 2px;
+.texto {
+    background-color: rgb(26, 97, 119);
+    padding: 5px;
+    padding-left: 10px;
+    margin-top: 20px;
     text-indent: 20px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    color: white;
+    border-radius: 6px;
+}
+h1 a{
+    text-decoration: none;
+    color: #12F700;
+    background-color: #2c613c;
+    padding: 4px;
+    border-radius: 10px;
+}
+.texto a {
+    text-decoration: none;
+    color: #12F700;
+}
+.texto a:visited{
+    text-decoration: none;
 }
 #loud {
     color: #12F700;
@@ -145,13 +168,33 @@ aside p {
 .botao {
     text-align: center;
     border: 1px solid black;
+    background-color: #2c613c;
     width: 200px;
     margin-top: 30px;
     margin-bottom: 40px;
     margin: auto;
-    padding: 2px;
+    padding: 4px;
     border-radius: 4px;
 }
 .botao a {
     text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 0.9em;
+}
+.botao:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.384);
+}
+footer p {
+    color: rgb(218, 218, 218);
+}
+footer {
+    background: linear-gradient(to right, rgb(141, 159, 51), rgb(95, 44, 141));
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
 }
