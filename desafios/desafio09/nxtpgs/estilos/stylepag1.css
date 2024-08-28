@@ -58,11 +58,72 @@ div {
     border: 1px solid black;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.474);
 }
-.NA {
+div .NA {
     background-image: url('../imagens/band-usa.jpg');
 }
-.EMEA {
+div .EMEA {
     background-image: url('../imagens/emea-band.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+}
+div .BRASIL {
+    background-image: url('../imagens/band-brasil.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70px;
+}
+.btn {
+    background-color: rgb(186, 10, 10);
+    width: 100px;
+    height: 80px;
+    color:white;
+}
+div .LATAM {
+    height: 70px;
+    background-image: url('../imagens/band-latam.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div .CHINA {
+    height: 60px;
+    background-image: url('../imagens/band-china.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+div .SOUTH-KOREA {
+    height: 60px;
+    background-image: url('../imagens/band-south-korea.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div .JAPAN {
+    height: 60px;
+    background-image: url('../imagens/band-japan.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+div .ASIA {
+    background-image: url('../imagens/band-asia.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+aside {
+    background-color: rgb(37, 72, 99);
+    text-align: center;
+    color: white;
+}
+aside p {
+    text-indent: 20px;
+    padding: 10px;
+}
+.video {
+    width: 715px;
+    background-color: white;
 }
