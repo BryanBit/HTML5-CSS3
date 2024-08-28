@@ -4,22 +4,18 @@ body {
 }
 main {
     background-color: aliceblue;
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    padding-bottom: 30px;
 }
 h1 {
     text-align: center;
 }
 h2 {
     font-size: 1.2em; 
-    text-indent: 20px;
+
 }
 header {
     background-color: rgb(228, 228, 228);
     padding: 10px;
-    
     text-align: center;
     font-size: 1.1em;
     padding-bottom: 25px;
@@ -29,77 +25,133 @@ header {
 header h2 {
     font-size: 0.9em;
 }
-div {
-    height: 110px;
-    width: 600px;
-    padding: 1px;
-    font-size: 0.8em;
-    margin: 3px;
-    border-radius: 2px;
+#p1, #p2 {
+    text-indent: 40px;
+    padding-left: 20px;
+    padding-right: 30px;
 }
-div:hover {
-    transform: scale(1.01);
-    transition: 0.3s ease-out;
-}
-ul {
-    list-style-type: none;
-}
-div p {
-    text-align: center;
-}
-.NA {
-    background-image: url('../imagens/band-usa.jpg');
-    background-size: cover;
-    background-position: center;
-}
-.NA > p {
-    padding: 4px;
+.paises div {
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    padding: 15px;
+    width: 400px;
+    height: 100px;
     margin: auto;
-    margin-top: 10px;
-    justify-content: center;
-    color: white;
+}
+.paises div p { 
     text-align: center;
-    width: 200px;
-    background-color: rgba(98, 98, 98, 0.905);
+    margin: auto;
+    border: 1px solid rgb(0, 0, 0);
+}
+.paises div:hover {
+    transform: scale(1.04);
+    transition: 0.4s;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.474);
+}
+.paises ul {
+    list-style-type: none;
+    background-color: #ccc;
+    background-color: #cccccce8;
+    border: 1px solid black;
+}
+.paises p {
+    font-weight: bold;
+    background-color: #ccccccb7;
     border-radius: 2px;
     border: 1px solid black;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.349);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.474);
 }
-.NA > ul {
-    background-color: rgba(76, 76, 76, 0.959);
-    width: 400px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: auto;
-    margin-top: 3px;
-    color: white;
-    margin-bottom: 10px;
-    border-bottom-left-radius: 7px;
-    border-top-right-radius: 7px;
-    border: 1px solid rgb(0, 0, 0);
-    font-size: 1em;
+div .NA {
+    background-image: url('../imagens/band-usa.jpg');
 }
-.LATAM {
-    background-color: blue;
-}
-.ASIA {
-    background-color: brown;
-}
-.BRASIL {
-    background-color: green;
-}
-
-.SOUTH-KOREA {
-    background: linear-gradient(to right, white, red, blue);
-}
-.EMEA {
-    background-image: url('../imagens/band-emea.jpg');
+div .EMEA {
+    background-image: url('../imagens/emea-band.jpeg');
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-.JAPAN {
-    background-color: white;
-    color: red;
+div .BRASIL {
+    background-image: url('../imagens/band-brasil.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70px;
+}
+div .LATAM {
+    height: 70px;
+    background-image: url('../imagens/band-latam.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div .CHINA {
+    height: 60px;
+    background-image: url('../imagens/band-china.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+div .SOUTH-KOREA {
+    height: 60px;
+    background-image: url('../imagens/band-south-korea.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div .JAPAN {
+    height: 60px;
+    background-image: url('../imagens/band-japan.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+div .ASIA {
+    background-image: url('../imagens/band-asia.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+aside {
+    margin: 5px;
+    background-color: rgb(191, 232, 245);
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.533);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.404);
+    border-radius: 4px;
+}
+.video {
+    width: 100%;
+    background-color: rgb(173, 212, 225);
+    height: 270.5px;
+    margin: auto;
+    text-align: center;
+}
+aside p {
+    padding: 2px;
+    text-indent: 20px;
+}
+#loud {
+    color: #12F700;
+    padding: 1px;
+    border-radius: 6px;
+}
+#optc {
+    color: #98C139;
+    padding: 2px;
+    border-radius: 6px;
+}
+.botao {
+    text-align: center;
+    border: 1px solid black;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin: auto;
+    padding: 2px;
+    border-radius: 4px;
+}
+.botao a {
+    text-decoration: none;
 }
