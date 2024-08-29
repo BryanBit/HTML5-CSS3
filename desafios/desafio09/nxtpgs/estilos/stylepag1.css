@@ -128,15 +128,9 @@ aside {
     height: 270.5px;
     margin: auto;
     text-align: center;
-<<<<<<< HEAD
-=======
-    border-radius: 6px;
 }
-.texto {
-    background-color: rgb(26, 97, 119);
-    padding: 5px;
-    padding-left: 10px;
-    margin-top: 20px;
+aside p {
+    padding: 2px;
     text-indent: 20px;
     margin-bottom: 20px;
     line-height: 25px;
@@ -249,9 +243,4 @@ footer {
 }
 footer a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
-=======
-    margin-right: -8px;
-    margin-bottom: -8px;
->>>>>>> cfd36760b62a577ccb7dd0c269532a0e75552eb6
 }
