@@ -187,19 +187,23 @@ h1 #optc {
 .optc {
     color: #98C042;
 }
-.loud-link a {
+.loud-link {
     color: #13FF00;
     background-color: rgba(71, 71, 71, 0.67);
     text-decoration: none;
     padding: 2px;
     border-radius: 3.5px;
 }
-.optc-link a {
+.optc-link {
     color: #98C042;
     background-color: rgba(45, 45, 45, 0.67);
     text-decoration: none;
     padding: 2px;
     border-radius: 3.5px;
+}
+.aspas-link {
+    text-decoration: none;
+    color:white;
 }
 .botao {
     text-align: center;
@@ -239,4 +243,5 @@ footer {
 }
 footer a {
     text-decoration: none;
+    color: white;
 }
