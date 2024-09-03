@@ -14,6 +14,10 @@ h2 {
 
 }
 header {
+    display: block;
+    align-items: center;
+    margin: auto;
+    max-width: 1300px;
     background-color: rgb(228, 228, 228);
     padding: 10px;
     text-align: center;
@@ -113,9 +117,10 @@ div .ASIA {
     background-position: center;
 }
 aside {
-    max-width: 1200px;
-    min-width: 600px;
-    margin: 10px;
+    display: block;
+    align-items: center;
+    max-width: 1300px;
+    margin: 10px auto;
     background-color: rgb(191, 232, 245);
     padding: 10px;
     margin-top: 50px;
@@ -175,6 +180,10 @@ h1 #optc {
     padding-right: 3px;
 }
 .texto-aside {
+    display: block;
+    align-items: center;
+    margin: auto;
+    max-width: 1000px;
     background-color: rgba(27, 27, 131, 0.764);
     text-indent: 20px;
     padding: 10px;
