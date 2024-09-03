@@ -192,7 +192,6 @@ h1 #optc {
     background-color: rgba(71, 71, 71, 0.67);
     text-decoration: none;
     padding: 2px;
-    padding-left: 5px;
     border-radius: 3.5px;
 }
 .optc-link a {
@@ -200,12 +199,7 @@ h1 #optc {
     background-color: rgba(45, 45, 45, 0.67);
     text-decoration: none;
     padding: 2px;
-    padding-left: 5px;
     border-radius: 3.5px;
-}
-.aspas-link a {
-    color: white;
-    text-decoration: none;
 }
 .botao {
     text-align: center;
@@ -231,7 +225,7 @@ h1 #optc {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.384);
 }
 footer p {
-    color: rgb(255, 255, 255);
+    color: rgb(218, 218, 218);
 }
 footer {
     background: linear-gradient(to right, rgb(141, 159, 51), rgb(95, 44, 141));
@@ -241,8 +235,8 @@ footer {
     margin-bottom: -8px;
     margin-left: -8px;
     margin-right: -8px;
+    color: white;
 }
 footer a {
     text-decoration: none;
-    color: white;
 }
