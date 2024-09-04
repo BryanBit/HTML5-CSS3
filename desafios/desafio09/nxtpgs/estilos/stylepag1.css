@@ -29,10 +29,10 @@ header {
 header h2 {
     font-size: 0.9em;
 }
-#p1, #p2 {
-    text-indent: 40px;
-    padding-left: 20px;
-    padding-right: 30px;
+.primeiro-p {
+    text-align: justify;
+    padding: 50px;
+    text-indent: 30px;
 }
 .paises div {
     margin-bottom: 20px;
@@ -203,6 +203,7 @@ h1 #optc {
     background-color: rgba(71, 71, 71, 0.67);
     text-decoration: none;
     padding: 2px;
+    padding-left: 6px;
     border-radius: 3.5px;
 }
 .optc-link {
@@ -210,6 +211,7 @@ h1 #optc {
     background-color: rgba(45, 45, 45, 0.67);
     text-decoration: none;
     padding: 2px;
+    padding-left: 6px;
     border-radius: 3.5px;
 }
 .aspas-link {
